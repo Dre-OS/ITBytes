@@ -1,2 +1,2 @@
 # ITBytes
-Single-Page Ecommerce Application for ITBytes Computers and CCTV
+Single-Page Ecommerce Web Application for ITBytes Computers and CCTV
