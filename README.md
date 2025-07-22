@@ -31,13 +31,13 @@ Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web 
 1. Install Node.js
 2. Choose one of the following methods:
 
-   - **Extract Zip file:**
+- **Extract Zip file:**
 ```bash
 # Extract the zip file and run setup script
 setup.bat
 ```
      
-   - **OR Clone repositories for each module:**
+- **OR Clone repositories for each module:**
 ```bash
 
 # Clone the repository
