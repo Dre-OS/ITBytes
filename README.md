@@ -1,5 +1,9 @@
 # ITBytes - Single-Page Ecommerce Web Application
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Dre-OS/ITBytes/refs/heads/main/itbytes_logo.webp" alt="ITBytes Logo">
+</p>
+
 ## Project Overview
 This repository contains a single-page ecommerce web application for ITBytes, a business that sells computers and CCTV systems.
 
