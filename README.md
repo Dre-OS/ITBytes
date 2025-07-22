@@ -7,17 +7,17 @@
 ## Project Overview
 This repository contains a single-page ecommerce web application for ITBytes, a business that sells computers and CCTV systems.
 
-## Features
+## Features 🧑‍💻
 - Product browsing and searching
 - Shopping cart functionality
 - Secure checkout process
 - User account management
 - Responsive design for mobile and desktop
 
-## Technology Stack
+## Technology Stack 🪛
 MongoDB, Express, React.js, Node.js
 
-## Archictecture
+## Archictecture 🏗️
 Microarchitecture design 
 (Front-end website accessing Multiple APIs connected through Event-Driven Messaging)
 
