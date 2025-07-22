@@ -14,7 +14,8 @@ This repository contains a single-page ecommerce web application for ITBytes, a 
 MongoDB, Express, React.js, Node.js
 
 ## Archictecture
-Microarchitecture design (Multiple APIs connected through Event-Driven Messaging)
+Microarchitecture design 
+(Front-end website accessing Multiple APIs connected through Event-Driven Messaging)
 
 ## Getting Started
 
