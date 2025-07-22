@@ -1,7 +1,7 @@
 # ITBytes - Single-Page Ecommerce Web Application
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Dre-OS/ITBytes/refs/heads/main/itbytes_logo.webp" alt="ITBytes Logo">
+    <img src="https://raw.githubusercontent.com/Dre-OS/ITBytes/refs/heads/main/itbytes_logo.webp" alt="ITBytes Logo" width="200">
 </p>
 
 ## Project Overview
