@@ -27,11 +27,17 @@ Microarchitecture design
 Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web app, batteries included 🔋
 
 ### Option 2: Clone Repository/Extract Repository files
-*Extract Zip file and run setup.bat*
 
-_OR_
+1. Install Node.js
+2. Choose one of the following methods:
 
-*For every module:*
+   - **Extract Zip file:**
+```bash
+# Extract the zip file and run setup script
+setup.bat
+```
+     
+   - **OR Clone repositories for each module:**
 ```bash
 
 # Clone the repository
@@ -50,6 +56,7 @@ npm install
 npm run dev
 
 ```
+
 
 After cloning, you'll need to set up environment variables. Create a `.env` file in the root directory
 
