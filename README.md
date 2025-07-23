@@ -35,13 +35,13 @@ Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web 
 ### Option 2: Clone Repository/Extract Repository files
 
 1. Extract folder ITBytes
-2. Install Node.js ()
+2. Install Node.js (node-v22.17.1-x64.msi)
 3. Choose one of the following methods:
 
 - **Run Setup Script:**
 ```bash
-# Extract the zip file and run setup script
-setup.bat
+# Run setup script
+./setup.bat
 ```
      
 - **OR Clone repositories for each module:**
@@ -53,7 +53,7 @@ git clone https://github.com/Dre-OS/ITBytes-[ModuleName].git
 # Navigate to the project directory
 cd ITBytes-[ModuleName]
 
-# Navigate to the root directory (where package.json is)
+# Navigate to the root directory (contains package.json)
 cd ./path/to/root
 
 # Install dependencies
@@ -63,7 +63,6 @@ npm install
 npm run dev
 
 ```
-
 
 After cloning, you'll need to set up environment variables. Create a `.env` file in the root directory
 
