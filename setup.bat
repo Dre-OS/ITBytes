@@ -36,6 +36,7 @@ REM Loop through all defined apps
 FOR /L %%i IN (0,1,4) DO (
     CALL :ProcessApp %%i
 )
+START "" "https://localhost:5173/"
 PAUSE
 
 :ProcessApp
@@ -45,6 +46,14 @@ PAUSE
         ECHO Setting up %currentApp%
         PUSHD %currentApp%
         CALL :FindRootAndRun
+        IF ERRORLEVEL 1 (
+            ECHO Failed to find package.json in %currentApp%
+        ) ELSE (
+            ECHO Successfully set up %currentApp%
+            IF %currentApp%==./ITBytes-UI (
+                START "" "http://localhost:5173/"
+            )
+        )
         POPD
     )
     ENDLOCAL
