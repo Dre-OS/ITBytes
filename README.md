@@ -12,7 +12,6 @@ This repository contains a single-page ecommerce web application for ITBytes, a 
 - Shopping cart functionality
 - Secure checkout process
 - User account management
-- Responsive design for mobile and desktop
 
 ## Technology Stack 🪛
 MongoDB, Express, React.js, Node.js
@@ -27,15 +26,19 @@ Microarchitecture design
 
 ## Getting Started
 
+### Required: 
+- Node.JS
+
 ### Option 1: Access demo deployment
 Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web app, batteries included 🔋
 
 ### Option 2: Clone Repository/Extract Repository files
 
-1. Install Node.js
-2. Choose one of the following methods:
+1. Extract folder ITBytes
+2. Install Node.js ()
+3. Choose one of the following methods:
 
-- **Extract Zip file:**
+- **Run Setup Script:**
 ```bash
 # Extract the zip file and run setup script
 setup.bat
@@ -45,7 +48,7 @@ setup.bat
 ```bash
 
 # Clone the repository
-git clone https://github.com/your-username/ITBytes-[ModuleName].git
+git clone https://github.com/Dre-OS/ITBytes-[ModuleName].git
 
 # Navigate to the project directory
 cd ITBytes-[ModuleName]
