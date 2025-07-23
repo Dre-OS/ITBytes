@@ -21,6 +21,10 @@ MongoDB, Express, React.js, Node.js
 Microarchitecture design 
 (Front-end website accessing Multiple APIs connected through Event-Driven Messaging)
 
+<p align="center">
+    <img src="https://raw.githubusercontent.com/Dre-OS/ITBytes/refs/heads/main/itbytes_sysarchi.webp" alt="ITBytes Logo" width="500">
+</p>
+
 ## Getting Started
 
 ### Option 1: Access demo deployment
