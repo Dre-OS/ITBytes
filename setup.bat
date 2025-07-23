@@ -36,7 +36,7 @@ REM Loop through all defined apps
 FOR /L %%i IN (0,1,4) DO (
     CALL :ProcessApp %%i
 )
-START "" "https://localhost:5173/"
+START "" "http://localhost:5173/"
 PAUSE
 
 :ProcessApp
@@ -50,9 +50,6 @@ PAUSE
             ECHO Failed to find package.json in %currentApp%
         ) ELSE (
             ECHO Successfully set up %currentApp%
-            IF %currentApp%==./ITBytes-UI (
-                START "" "http://localhost:5173/"
-            )
         )
         POPD
     )
@@ -72,8 +69,9 @@ PAUSE
     
     REM Check if package.json exists in current directory
     IF EXIST "package.json" (
-        ECHO Found package.json, installing dependencies
+        ECHO Found package.json, installing dependencies...
         START CMD /K "npm i && npm run dev"
+        TIMEOUT /T 10 /NOBREAK
         EXIT /B 0
     )
     
@@ -84,6 +82,7 @@ PAUSE
                 ECHO Found package.json in subdirectory: %%D
                 PUSHD "%%D"
                 START CMD /K "npm i && npm run dev"
+                TIMEOUT /T 10 /NOBREAK
                 POPD
                 EXIT /B 0
             )
