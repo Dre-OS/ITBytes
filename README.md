@@ -26,6 +26,9 @@ Microarchitecture design
 
 ## Getting Started
 
+### NOTICE ⚠️
+- in case any of the functionality are unresponsive in the demo deployment, proceed to https://it-bytes-ui.vercel.app/test to refresh all services, this is due to the limitations of the free services on inactivity
+
 ### Required: 
 - Node.JS
 
@@ -65,6 +68,7 @@ npm run dev
 ```
 
 After cloning, you'll need to set up environment variables. Create a `.env` file in the root directory
+
 
 ## License
 Apache License 2.0
