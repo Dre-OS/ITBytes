@@ -22,7 +22,7 @@ Microarchitecture design
 (Front-end website accessing Multiple APIs connected through Event-Driven Messaging)
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/Dre-OS/ITBytes/refs/heads/main/itbytes_sysarchi.webp" alt="ITBytes Logo" width="500">
+    <img src="https://raw.githubusercontent.com/Dre-OS/ITBytes/refs/heads/main/itbytes_sysarchi.webp" alt="ITBytes Logo" width="1000">
 </p>
 
 ## Getting Started
