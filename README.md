@@ -31,6 +31,7 @@ Microarchitecture design
 
 ### Required: 
 - Node.JS
+- Internet Access
 
 ### Option 1: Access demo deployment
 Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web app, batteries included 🔋
