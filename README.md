@@ -29,6 +29,7 @@ Microarchitecture design
 ### NOTICE ⚠️
 - in case any of the functionality are unresponsive in the demo deployment, proceed to https://it-bytes-ui.vercel.app/test to refresh all services, this is due to the limitations of the free services on inactivity
 - demo credentials are available in credetials.txt inside the ZIP file
+- Documentation is available [Here](https://github.com/Dre-OS/ITBytes "ITBytes Documentation Repository")
 
 ### Required: 
 - Node.JS
