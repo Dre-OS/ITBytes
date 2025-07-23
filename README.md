@@ -45,6 +45,7 @@ Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web 
 3. Choose one of the following methods:
 
 - **Run Setup Script:**
+
 click to run the script file
 
 *OR*
