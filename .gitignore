@@ -4,5 +4,5 @@
 ./ITBytes-OrderService/
 ./ITBytes-InventoryManagementService/
 ./ITBytes-AuditService/
-ITBytes-OrderService
-ITBytes-UI
+node-v22.17.1-x64.msi
+credentials.txt
