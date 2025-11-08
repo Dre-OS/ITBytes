@@ -36,7 +36,7 @@ Microarchitecture design
 - Internet Access
 
 ### Option 1: Access demo deployment
-Proceed to https://it-bytes-ui.vercel.app/ to view the current build of the web app, batteries included 🔋
+Proceed to https://itbytes.dreos.qzz.io/ to view the current build of the web app, batteries included 🔋
 
 ### Option 2: Clone Repository/Extract Repository files
 
